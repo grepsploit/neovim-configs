@@ -1,5 +1,5 @@
-require 'jsan.remap'
-require 'jsan.packer'
+require 'grepsploit.remap'
+require 'grepsploit.packer'
 
 local opt = vim.opt
 

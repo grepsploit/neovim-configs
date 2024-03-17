@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
+  use {"ellisonleao/glow.nvim", config = function() require("glow").setup() end}
 
   use {
     'VonHeikemen/lsp-zero.nvim',

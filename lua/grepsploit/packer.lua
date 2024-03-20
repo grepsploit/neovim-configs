@@ -13,10 +13,12 @@ return require('packer').startup(function(use)
 	   requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use "rebelot/kanagawa.nvim"
+  use "EdenEast/nightfox.nvim"
+  vim.cmd("colorscheme carbonfox")
 
+  --use "rebelot/kanagawa.nvim"
   -- Set the colorscheme to Kanagawa {wave, dragon, or lotus}
-  vim.cmd("colorscheme kanagawa-wave")
+  --vim.cmd("colorscheme kanagawa-wave")
 
   -- Set the background to transparent
   vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
